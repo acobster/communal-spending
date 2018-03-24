@@ -9,7 +9,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "google-drive": "^0.0.8",
+    "googleapis": "25.*",
+    "google-auth-library": "0.*",
     "popcornnotify": "^1.0.1"
   }
 }
