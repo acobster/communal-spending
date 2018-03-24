@@ -1,0 +1,38 @@
+{
+  "popcornnotify": {
+    "apiKey": "YOUR_API_KEY"
+  },
+  "google": {
+    "clientId": "GOOGLE_CLIENT_ID",
+    "clientSecret": "GOOGLE_CLIENT_SECRET",
+    "fileId": "GOOGLE_SHEETS_FILE_ID",
+    "range": "I2:K4"
+  },
+  "heading": "House spending report for %name%:",
+  "people": [
+    {
+      "name": "Alice",
+      "contact": "5555555555",
+      "owes": {
+        "Coby": [0, 1],
+        "Bob": [0, 2]
+      }
+    },
+    {
+      "name": "Coby",
+      "contact": "5555555555",
+      "owes": {
+        "Alice": [1, 0],
+        "Bob": [1, 2]
+      }
+    },
+    {
+      "name": "Bob",
+      "contact": "5555555555",
+      "owes": {
+        "Alice": [2, 0],
+        "Coby": [2, 1]
+      }
+    }
+  ]
+}
