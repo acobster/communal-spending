@@ -1,0 +1,15 @@
+{
+  "name": "notify-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "google-drive": "^0.0.8",
+    "popcornnotify": "^1.0.1"
+  }
+}
